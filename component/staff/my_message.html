@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta  charset="UTF-8"  name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+		<title>我的评议</title>
+		<link href="../../css/style.css" rel="stylesheet" type="text/css">
+		<link href="../../css/comment.css" rel="stylesheet" type="text/css">
+		<script src="../../js/jquery.min.js" type="text/javascript"></script>
+		<script src="../../js/index.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="top_main">
+			<header class="staff">
+				<div class="nav">
+					<a href="javascript:history.go(-1)"><div class="back"></div></a>
+					<div class="nav_title">我的消息</div>
+				</div>
+			</header>
+		</div>
+		<div class="main_list my_message">
+			<ul>
+				<li class="worke_state_notice">
+					<div class="comment_title clearfix">
+						<h4>系统通知<time>2018.2.11</time></h4>
+						<span>您已切换到在岗状态</span>
+					</div>
+				</li>
+				<li class="comment_state_notice">
+						<div class="comment_title clearfix">
+							<h4>系统通知<time>2018.2.11</time></h4>
+							<span>您收到一条来自部门领导的虚假待岗评议</span>
+						</div>
+						<p class="comment_con">
+							部门领导<span>张雷</span>对您的评议：<span>2018.2.11上午9:07，部门员工王晨存在虚假待岗。</span>
+						</p>
+				</li>
+			</ul>
+			
+		</div>
+		<script>
+			$(".comment_title").click(function(){
+				$(this).siblings().toggle()
+			})
+		</script>
+	</body>
+</html>

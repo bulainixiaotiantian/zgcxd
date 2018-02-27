@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta  charset="UTF-8"  name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+		<title>我的状态</title>
+		<link href="../../css/style.css" rel="stylesheet" type="text/css">
+		<link href="../../css/personal.css" rel="stylesheet" type="text/css">
+		<script src="../../js/jquery.min.js" type="text/javascript"></script>
+		<script src="../../js/index.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="top_main">
+			<header class="staff">
+				<div class="nav">
+					<a href="javascript:history.go(-1)"><div class="back"></div></a>
+					<div class="nav_title">我的状态</div>
+				</div>
+			</header>
+			<div class="personal clearfix">
+				<img src="../../images/person.png" />
+			</div>
+			<div class="name_con clearfix">
+				<div class="name">王晨</div><div class="state">在岗</div>
+			</div>
+			<span class="work_name">人社局信访工作科</span>
+		</div>
+		<div class="state_list">
+			<div class="state_title">我的状态</div>
+			<ul>
+				<li class="doing">在岗</li>
+				<li>开会</li>
+				<li>请假</li>
+				<li>休息</li>
+			</ul>
+		</div>
+		<script>
+			$(".state_list li").click(function(){
+				$(this).toggleClass("doing").siblings().removeClass();
+			})
+		</script>
+	</body>
+</html>

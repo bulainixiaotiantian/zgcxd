@@ -1,0 +1,52 @@
+@charset "utf-8";
+.main .title{
+	font: 0.3rem/1.07rem "微软雅黑";
+	text-align: center;
+	margin-bottom: 0.2rem;
+	background: #fff;
+}
+body{
+	background: #f4f4f4;
+}
+.main{
+	
+}
+.main ul{
+	margin: 0.53rem;
+	height: 2.73rem;
+	margin: 0.2rem 0 0.53rem;
+}
+.main li{
+	padding-left:1.36rem;
+	line-height: 0.93rem;
+	font-size: 0.24rem;
+	background-color: #fff;
+	background-size: 0.61rem 0.61rem;
+	background-position:0.35rem center; 
+	background-repeat: no-repeat;
+}
+.main li:nth-child(1){
+	background-image: url(../images/staff_name.png);
+}
+.main li:nth-child(2){
+	background-image: url(../images/staff_tel.png);
+}
+.main li:nth-child(3){
+	background-image: url(../images/staff_state.png);
+}
+.main li i{
+	font-size: 0.3rem;
+	
+}
+.main li span{
+    display: inline-block;
+    width: 1.26rem;
+    margin-right: 0.35rem;
+    line-height: 0.51rem;
+    height: 0.51rem;
+    text-align: center;
+    background: #569aaf;
+    color: #fff;
+    float: right;
+    margin-top: 0.2rem;
+}

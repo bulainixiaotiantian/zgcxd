@@ -1,0 +1,114 @@
+
+@charset "utf-8";
+
+.top_main{
+	height: 4.86rem;
+	background: #005689;
+}
+.personal img{
+	width: 1.77rem;
+	float: left;
+	height: 1.77rem;
+	border: 0.06rem solid #fff;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.personal {
+	width: 1.89rem;
+	margin: 0 auto;
+}
+.name_con>div{
+	float: left;
+
+}
+.name_con .name{
+	margin-right: 0.17rem;
+	font: 0.48rem/0.8rem "微软雅黑";
+	color: #fff;
+}
+.name_con .state{
+	font: 0.23rem/0.31rem "微软雅黑";
+	border-radius: 0.08rem;
+	background: #fff;
+	width: 0.84rem;
+	text-align: center;
+	color: #286f93;
+	display:block;
+	margin-top: 0.27rem;
+	
+}
+.name_con{
+	margin: 0 auto;
+	width: 1.99rem;
+}
+.work_name{
+    font-size: 0.24rem;
+    color: #fff;
+    display: block;
+    letter-spacing: 0.03rem;
+    text-align: center;
+}
+.main_list{
+	padding-top:0.41rem;
+}
+.main_list img{
+	width: 0.42rem;
+	height: 0.45rem;
+	float: left;
+	margin-top: 0.27rem;
+	margin-right: 0.24rem;
+}
+.main_list  li{
+	font:0.3rem/0.96rem "微软雅黑";
+	background: url(../images/list_jiantou.png) no-repeat;
+	background-position: 6.53rem center; 
+	background-size: 0.2rem 0.35rem;
+	height: 0.96rem;
+	background-color:#fff ;
+	padding:0 0.7rem 0 0.34rem;
+	margin-bottom: 0.24rem;
+	
+}
+.main_list li a {
+    width: 6.4rem;
+    display:inline-block;
+}
+header.staff {
+	height: 0.94rem;
+	background:#005689 ;
+}
+
+/*-----------以下为我的状态页面的css-----------------*/
+
+.state_title{
+	padding-left:0.4rem;
+	font: 0.36rem/0.65rem "微软雅黑";
+	margin-top: 0.63rem;
+	background: #fff;
+	margin-bottom: 0.22rem;
+}
+.state_list ul{
+	font: 0.3rem/0.62rem "微软雅黑";
+}
+.state_list ul li{
+	background-color:#fff;
+	padding: 0 0.5rem;
+	margin-bottom: 0.37rem;
+}
+.state_list ul li.doing{
+	background-image: url(../images/duiHao.png) ;
+	background-repeat: no-repeat;
+	background-size: 0.35rem 0.25rem;
+	background-position: 6.2rem center;
+}
+body{
+	background: #f4f4f4;
+}
+.name_con.leader {
+	width: 100%;
+	
+}
+.name_con.leader .name{
+	float: none;
+	text-align: center;
+}
